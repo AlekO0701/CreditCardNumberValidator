@@ -8,7 +8,9 @@
 Но от него остались некоторые наработки вот в таком виде:
 
 public class Main {
+
   public static void main(String[] args) {
+  
     // TODO: подставлять номер карты нужно сюда между двойными кавычками, без пробелов
     String number = "5351719427810741";
     System.out.println(String.format("Result is %s", isValidCardNumber(number) ? "OK" : "FAIL"));
